@@ -1,8 +1,8 @@
-# 🏠 Affordable Housing & Tenant Matching System
+# Affordable Housing & Tenant Matching System
 
 A relational database system for managing **tenants, landlords, properties, preferences, payments, complaints, legal documents, and property matching** using SQL and PL/SQL.
 
-## 🚀 Overview
+## Overview
 
 The system models the complete housing-management workflow:
 
@@ -20,7 +20,7 @@ Payments / Complaints / Documents
 Reporting
 ```
 
-## 🔑 Features
+## Features
 
 * Designed a normalized relational database for housing management.
 * Tenant-property matching based on **budget, bedrooms, location, and property availability**.
@@ -44,7 +44,7 @@ Reporting
 
 The project also uses triggers for rules such as minimum rent validation, automatic complaint timestamps, and duplicate phone-number prevention.
 
-## 📊 Project Highlights
+## Project Highlights
 
 * **20+ entities**
 * **45+ relationships**
@@ -54,11 +54,11 @@ The project also uses triggers for rules such as minimum rent validation, automa
 * Resume-reported query optimization from **1.2s → 0.54s**
 * Resume-reported reduction in manual processing of approximately **60%**.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 `SQL` `PL/SQL` `Oracle` `ER Modeling` `Database Design`
 
-## 📁 Structure
+## Structure
 
 ```text
 affordable-housing-tenant-matching/
@@ -70,7 +70,7 @@ affordable-housing-tenant-matching/
     └── ER_Diagram.png
 ```
 
-## ▶️ Run
+## Run
 
 Execute the SQL scripts in an Oracle-compatible SQL/PLSQL environment.
 
